@@ -1,0 +1,51 @@
+LICENSE
+
+Unless otherwise noted in the file, all code is copyright 2011 by Marc Gershow and is licensed under the Creative Commons Attribution Share Alike 3.0 United States License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/us/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+Any modification or redistribution of this work must include this license.
+
+If this work or its derivatives result in any reports or publications, you must acknowledge this work in the typical format.  Please cite:
+Gershow M, Berck M, Mathew D, Luo L, Kane E, Carlson J, Samuel ADT. Controlling Airborne Chemical Cues For Studying Navigation in Small Animals. Nature Methods. 2012
+
+*THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+**The author is under no obligation to provide any services by way of maintenance, updates or corrections for this software.  Nor is the author obligated to provide technical support or any form of assistance using this software.
+
+Note that the creative commons license contains additional disclaimers and limitations on liability.  
+
+
+The following are copyright/licensed by other individuals:
+Where applicable modifications are copyright Marc Gershow and licensed under the same terms as the original source license.
+
+YamlMatlab, by  
+ - Jiri Cigler, Dept. of Control Engineering, CTU Prague
+ - Jan  Siroky, Energocentrum PLUS s.r.o.
+ MIT license
+ http://code.google.com/p/yamlmatlab/
+
+ SnakeYaml, by
+ - Andrey Somov <py4fun@gmail.com>
+ - Alexander Maslov
+ Apache 2.0 license
+ http://code.google.com/p/snakeyaml/
+
+ barweb.m and barweb_marc.m (bar plot with error bars)
+ Bolu Ajiboye (modified by Marc Gershow)
+ BSD license
+ http://www.mathworks.com/matlabcentral/fileexchange/10803
+
+ assignApplicable, assignToStruct, assignFromStruct modified by Marc Gershow from
+ pvpmod.m by U. Egert, H. Hentschke
+ BSD license
+ http://www.mathworks.com/matlabcentral/fileexchange/6190-abfload/content/pvpmod.m
+
+ derivest suite
+ John D'Errico 
+ BSD license
+ http://www.mathworks.com/matlabcentral/fileexchange/13490-adaptive-robust-numerical-differentiation
+
+OpenCV
+http://opencv.willowgarage.com/wiki/
+BSD license
+*from the BSD 3.0 license
+** adapted from Albrecht and Bargmann, Nature Methods 8,599–605 (2011) doi:10.1038/nmeth.1630
+
