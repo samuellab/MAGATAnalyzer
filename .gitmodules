@@ -1,0 +1,9 @@
+[submodule "Example Data"]
+	path = Example Data
+	url = git@github.com:samuellab/MAGATAnalyzer-Example-Data.git
+[submodule "Matlab-Track-Analysis"]
+	path = Matlab-Track-Analysis
+	url = git@github.com:samuellab/MAGATAnalyzer-Matlab-Analysis.git
+[submodule "Track-Extraction-Software"]
+	path = Track-Extraction-Software
+	url = git@github.com:samuellab/MAGATAnalyzer-Track-Extraction.git
