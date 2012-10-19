@@ -1,28 +1,36 @@
 Multi Animal Gait And Track Analyzer software
 
 This code is hosted at https://github.com/samuellab/MAGATAnalyzer
-The latest version may always be found here.
+The latest version may always be found here.  
 
-This software requires MATLAB R2010a or later. It was developed with access to the full suite of MATLAB add-on packages.  Some of these packages may be required to run the software.  If you get undefined function errors, the likely cause is a missing package.  (If you do not have the geography toolkit, the functions rad2deg and deg2rad are available in this repository and may be added to your MATLAB path)
+This software requires MATLAB R2010a or later. It was developed with access to the full suite of MATLAB add-on packages.  Some of these packages may be required to run the software.  If you get undefined function errors, the likely cause is a missing package.  (If you do not have the mapping toolkit, the functions rad2deg and deg2rad are available in this repository and must be added to the matlab path.  One way to do this is to copy them into the basic routines directory of Matlab-Track-Analysis)
 
 To run the labview VIs (not required to use software), you must have Labview 8.5 or later and the Vision Development Module.  
 
 The MAGAT Analyzer includes 3 submodules
-track extraction software (to pull larval tracks from image stacks)
-Matlab-Track-Analysis (to extract behavioral metrics from larval tracks)
-Example Data (zipped file containing movies from 3 experiments with larvae navigating an Ethyl Acetate gradient in LADY GAGA - the Linear And Dynamic Gaseous Gradient Apparatus) 
+(1) track extraction software (to pull larval tracks from image stacks)
 
-software is contained in submodules;  to load submodules, type
+(2) Matlab-Track-Analysis (to extract behavioral metrics from larval tracks)
+
+(3) Example Data (zipped file containing movies from 3 experiments with larvae navigating an Ethyl Acetate gradient in LADY GAGA - the Linear And Dynamic Gaseous Gradient Apparatus) If you downloaded this software from the Nature Methods website, the example data is not included.  
+
+software is contained in submodules;  to load submodules, open git bash, change to this directory, then type
+
 git submodule init
 followed by
 git submodule update
 
-To see an example of software use (takes about an hour for the first run on a standard desktop computer), open matlab, change to the Matlab-Track-Analysis directory and type the command
+To see an example of software use (takes about an hour for the first run on a standard desktop computer), 
 
+(1)open matlab
+
+(2) change to the Matlab-Track-Analysis directory 
+cd (path to this directory)/Matlab-Track-Analysis
+
+(3) type the command:
 MAGAT_ANALYZER_START_HERE
 
 Note that to use the matlab software, you must be in the matlab-track-analysis directory (in matlab) and first run the SetupDirectories command (this is done automatically by the MAGAT_ANALYZER_START_HERE command)
-
 
 
 NB: Track Extraction Software contains submodules as well.  Though not required to run software, to get the full source code you must type
