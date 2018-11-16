@@ -20,6 +20,10 @@ git submodule init
 followed by
 git submodule update
 
+**IMPORTANT**
+you must copy the openCV DLLs to your system path directory. They are in a folder titled "openCV dlls; copy to windows system32"
+Copy to windows/system32 and windows/system just to be sure
+
 To see an example of software use (takes about an hour for the first run on a standard desktop computer), 
 
 (1)open matlab
@@ -32,6 +36,7 @@ MAGAT_ANALYZER_START_HERE
 
 Note that to use the matlab software, you must be in the matlab-track-analysis directory (in matlab) and first run the SetupDirectories command (this is done automatically by the MAGAT_ANALYZER_START_HERE command)
 
+**The track extraction will run during the MATLAB session; You will see the message "when the track extraction software has finished running, this script will continue," and windows will open displays showing extraction progress. This will take 30+ minutes. If the software continues immediately, this indicates a problem running extract-stack.exe & is most likely due to a problem with the DLLs.
 
 NB: Track Extraction Software contains submodules as well.  Though not required to run software, to get the full source code you must type
 
@@ -44,6 +49,8 @@ git submodule init
 git submodule update
 
 
+**updated 11/16/2018 with minor bug fixes to address incompatabilities with newer versions of MATLAB
+**README updated 11/16/2018 to include note to copy openCV DLLs to folder
 
 LICENSE
 
@@ -94,5 +101,5 @@ OpenCV
 http://opencv.willowgarage.com/wiki/
 BSD license
 *from the BSD 3.0 license
-** adapted from Albrecht and Bargmann, Nature Methods 8,599–605 (2011) doi:10.1038/nmeth.1630
+** adapted from Albrecht and Bargmann, Nature Methods 8,599â€“605 (2011) doi:10.1038/nmeth.1630
 
